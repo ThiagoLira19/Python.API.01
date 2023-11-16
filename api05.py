@@ -115,7 +115,7 @@ print('+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+')
 # Exemplo para obter um 'item' pelo ID.
 print(
     json.dumps(
-        get_one_item(5),
+        get_one_item(3),
         ensure_ascii=False,
         indent=2
     )
